@@ -473,14 +473,19 @@ width: 100%;
 z-index: 999;
 background-color: #000;
 }
-/* AJUSTADO: Aumenta o espaçamento para o header fixo no celular (Reduzido para 45px) */
+/* AJUSTADO: Padding-top ajustado para um valor seguro de 110px no mobile */
 main{
-padding-top: 45px;
+padding-top: 110px;
 }
 header .interface{
 flex-direction: column;
 align-items: center;
 text-align: center;
+}
+.logo img{
+width: 120px; /* NOVO AJUSTE: Redução da largura do logo no mobile para diminuir altura */
+height: auto;
+border-radius: 15px;
 }
 header nav ul{
 flex-direction: column;
